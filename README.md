@@ -1,8 +1,9 @@
-# Frontend Mentor - Stats preview card component solution
+# Frontend Mentor - Interactive rating component
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges helped you improve your coding skills by building realistic projects. 
+![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
-## Table of contents
+## Welcome! 👋
+
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -23,18 +24,21 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
 
 ### Screenshots
 
-![Mobile Screen](./images/screenShot-mobile.png)
+![Screen Start](./design/mobile-design.jpg)
 
-![Desktop Screen](./images/screenShot-desktop.png)
+![Screen Thanks](./design/mobile-thank-you-state.jpg)
 
 
 ### Links
 
-- Solution URL: [With Github Pages](https://saratuma.github.io/Card-Component/)
+- Solution URL: [With Github Pages]( https://saratuma.github.io/Rating-Component/)
 
 ## My process
 
