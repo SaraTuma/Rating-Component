@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Overpass&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,9 @@ main{
     height: 100vh;
     background-color: hsl(216, 12%, 8%);
     color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Overpass', sans-serif;
 }
 
 .flex-start{
@@ -45,7 +49,7 @@ main{
 }
 
 .div-start-title{
-font-size: 20px;
+    font-size: 20px;
 }
 
 .div-start-p{
@@ -118,8 +122,13 @@ font-size: 20px;
     color: hsl(25, 97%, 53%);
     padding: 1vh;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 
+#rating-selected{
+    margin: 0.5vh;
+}
 
 .div-thanks-p{
     text-align: center;
