@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+.flex-start{
+    align-self: flex-start;
+    margin-left: 2.5vh;
+}
+
+.div-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: hsl(213, 19%, 18%);
+    width: 70vw;
+    height: 40vh;
+    border-radius: 15px;
+    align-items: center;
+    
+}
+
+
+
+.div-start-icon{
+    background-image: url(images/icon-star.svg);
+    background-position: center center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-color: hsla(216, 12%, 54%, 0.24);
+    padding: 1.5vh;
+    border-radius: 50%;
+    height: 1.5vh;
+    width: 3vw;
+}
+
+.div-start-title{
+font-size: 20px;
+}
+
+.div-start-p{
+    width: 60vw;
+    font-size: 15px;
+}
+
+.div-numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    height: 4.5vh;
+}
+
+.div-numbers-item{
+    background-color: hsla(216, 12%, 54%, 0.24);
+    padding: 1.5vh;
+    border-radius: 50%;
+    height: 1.5vh;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-numbers-item:hover{
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.div-start-button{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 60vw;
+    border: none;
+    border-radius: 20px;
+    height: 5vh;
+}
+
+.div-start-button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+/*Secund div----------------------*/
+
+
+.div-thanks{
+    display: none;
+    justify-content: space-evenly;
+    flex-direction: column;
+    place-items: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 70vw;
+    height: 40vh;
+    border-radius: 15px;
+    /*para separar as divs*/
+    margin-top: 10px;
+}
+
+.div-thanks-img{
+    height: 10vh;
+    width: 27vw;
+}
+
+.div-thanks-response{
+    background-color: hsla(216, 12%, 54%, 0.24);
+    color: hsl(25, 97%, 53%);
+    padding: 1vh;
+    border-radius: 15px;
+}
+
+
+.div-thanks-p{
+    text-align: center;
+    width: 60vw;
+    font-size: 15px;
+}
+
+@media (min-width: 768px){
+
+    .div-start{
+        width: 50vw;
+        height: 30vh;
+        
+    }
+    .div-start-icon{
+        padding: 1vh;
+        height: 1.5vh;
+        width: 1.8vw;
+    }
+    .div-start-p{
+        width: 40vw;
+    }
+    .div-numbers{
+        width: 40vw;
+    }
+    .div-numbers-item{
+        padding: 1vh;
+
+        height: 1.5vh;
+        width: 1.8vw;
+    }
+    .div-start-button{
+        width: 40vw;
+        height: 4vh;
+    }
+    .flex-start{
+        margin-left: 3.5vh;
+    }
+
+    .div-thanks{
+
+        width: 50vw;
+        height: 30vh;
+        
+    }
+    .div-thanks-p{
+        width: 40vw;
+    }
+
+}
+
+
+@media (min-width: 1366px){
+
+    .div-start{
+        width: 20vw;
+        height: 30vh;
+        
+    }
+    .div-start-icon{
+        padding: 1vh;
+        border-radius: 50%;
+        height: 1vh;
+        width: 1vw;
+    }
+    .div-start-p{
+        width: 15vw;
+    }
+    .div-numbers{
+        width: 15vw;
+    }
+    .div-numbers-item{
+        padding: 1vh;
+
+        height: 1vh;
+        width: 1vw;
+    }
+    .div-start-button{
+        width: 15vw;
+        height: 4vh;
+    }
+    .flex-start{
+        margin-left: 4.5vh;
+    }
+
+
+    .div-thanks{
+
+        width: 20vw;
+        height: 30vh;
+        
+    }
+    .div-thanks-img{
+        height: 6vh;
+        width: 10vw;
+    }
+    .div-thanks-p{
+        width: 15vw;
+    }
+    
+
+}
+
+
+
+.attribution { 
+    margin-top: 15px;
+    font-size: 11px; text-align: center; }
+.attribution a { color: hsl(25, 97%, 53%); text-decoration: none;}
